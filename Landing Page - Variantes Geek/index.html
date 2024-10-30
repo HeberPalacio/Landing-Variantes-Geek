@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Variantes Geek</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+
+    <!-- Encabezado con imagen -->
+    <header>
+        <img src="images/Banner Variantes Geek.jpg" alt="Imagen encabezado">
+    </header>
+
+    <!-- Frase debajo del encabezado -->
+    <div class="container">
+        <h3>"En memoria de Tony Stark. Un genio, millonario, playboy, filántropo."</h3>
+        
+        <!-- Botones con enlaces -->
+        <div class="buttons">
+            <a href="https://www.instagram.com/variantesgeek/">Instagram</a>
+            <a href="https://www.tiktok.com/@variantesgeek?_t=8qGVEn2dxos&_r=1">TikTok</a>
+            <a href="https://www.youtube.com/@VariantesGeek">Youtube</a>
+            <a href="https://www.facebook.com/profile.php?id=61561861455172">Facebook</a>
+            <a href="#" id="contact-btn">Contacto</a> <!-- Botón de contacto -->
+        </div>
+
+        <!-- Formulario de contacto (inicialmente oculto) -->
+        <div id="contact-form" class="hidden">
+            <form id="contact-form-submit">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Número de Celular:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="reason">Motivo de Contacto:</label>
+                <textarea id="reason" name="reason" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <!-- Segunda frase -->
+        <h4>Siéntete orgulloso de ser una variante.</h4>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Variantes Geek. Todos los derechos reservados. Creado por Heber Palacio</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Vincula tu archivo JavaScript -->
+
+</body>
+</html>
